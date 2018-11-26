@@ -1,5 +1,8 @@
 ## Bank-Client
 
+### Install Bank Server firstly from here
+https://github.com/MamdouhRElNakeeb/Bank-Server
+
 ### Features
 - Register a new bank account.
   - Name.
@@ -19,5 +22,3 @@
 - Data Validation.
 - Run on multiple machines over LAN
   - Change default server address in (src/bankclient/API.java) to Server machine IP
-
-# Bank-Server Application: https://github.com/MamdouhRElNakeeb/Bank-Server
