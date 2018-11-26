@@ -271,7 +271,7 @@ public class Login extends javax.swing.JFrame {
         String pws = txtPassword.getText();
 
         try {
-            API api = new API(1230);
+            API api = new API(API.PORT);
             Customer customer = api.loginCustomer(Integer.parseInt(acc), pws);
 
             if (customer != null){

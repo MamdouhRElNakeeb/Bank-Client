@@ -26,7 +26,7 @@ public class RegisterCustomer extends javax.swing.JDialog {
 
     private void customOperations() {
         try{
-            api = new API(1230); // default server
+            api = new API(API.PORT); // default server
             banks = api.getBanks();
         }
         catch (IOException e){

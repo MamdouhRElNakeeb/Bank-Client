@@ -17,13 +17,16 @@ import java.util.Scanner;
 
 public class API {
 
+    public static String SERVER = "127.0.0.1";
+    public static int PORT = 1230;
+
     private Scanner in;
     private PrintWriter out;
     private Socket s;
 
     public API(int port) throws IOException {
 
-        s = new Socket("localhost", port);
+        s = new Socket(API.SERVER, port);
 
         InputStream instream = s.getInputStream();
         OutputStream outstream = s.getOutputStream();
