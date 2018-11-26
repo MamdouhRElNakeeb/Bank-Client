@@ -22,3 +22,9 @@ https://github.com/MamdouhRElNakeeb/Bank-Server
 - Data Validation.
 - Run on multiple machines over LAN
   - Change default server address in (src/bankclient/API.java) to Server machine IP
+  
+ ### Extra Features
+ - Graphical User Interface(GUI).
+ - System is connected to MySQL Database.
+ - Applying Security techniques to the system, such as Encrypting/Decrypting
+sensitive data before storing to the database.
